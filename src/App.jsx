@@ -61,6 +61,7 @@ function App() {
 
   return (
     <main className='board'>
+      <div className='blur-item'/>
       <h1>Partida</h1>
       <section className='game'>
         {
@@ -82,6 +83,7 @@ function App() {
         <Square isSelected={turn === TURNS.X} >{TURNS.X}</Square>
         <Square isSelected={turn === TURNS.O} >{TURNS.O}</Square>
       </section>
+      <div style={{left: '50%', top: '400px', backgroundColor:'fuchsia'}} className='blur-item'/>
 
       <ResultModule winner={winner} resetGame={resetGame} />
 

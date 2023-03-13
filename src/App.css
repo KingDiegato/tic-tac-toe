@@ -8,3 +8,14 @@
 .card {
   padding: 2em;
 }
+
+.blur-item {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: #b91414;
+  z-index: -1;
+  filter: blur(20px);
+  opacity: 30%;
+}
