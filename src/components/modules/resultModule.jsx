@@ -4,7 +4,7 @@ import Square from '../square'
 export default function ResultModule({winner, resetGame}) {
   if (winner === null) return null
 
-  const winnerTest = winner === false ? 'Empate' : 'Ganó:'
+  const winnerTest = winner === false ? 'Tie' : 'Winner:'
   return (
     
         <section className='winner'>
