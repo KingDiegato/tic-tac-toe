@@ -62,7 +62,7 @@ function App() {
   return (
     <main className='board'>
       <div className='blur-item'/>
-      <h1>Partida</h1>
+      <h1>Tic Tac Toe</h1>
       <section className='game'>
         {
           board.map((_, index) => {
